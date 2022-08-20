@@ -51,9 +51,11 @@ public class JFrame extends javax.swing.JFrame {
 
         jMenu2.setText("Stratégia");
 
+        buttonGroup1.add(rbKockaztat);
         rbKockaztat.setText("Kockáztat");
         jMenu2.add(rbKockaztat);
 
+        buttonGroup1.add(rbNemKockaztat);
         rbNemKockaztat.setSelected(true);
         rbNemKockaztat.setText("Nem kockáztat");
         jMenu2.add(rbNemKockaztat);
